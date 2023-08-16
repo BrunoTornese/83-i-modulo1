@@ -9,6 +9,11 @@
   --MainBackground: #a29f9f;
   --BotonCompraBackground: #f5f4f4;
   --BotonCompraBorder: #555;
+  --color-button-primary-bg: #3498db;
+  --color-button-primary-text: #fff;
+  --color-button-secondary-bg: #e74c3c;
+  --color-button-secondary-text: #fff;
+  --color-bg-top: #1E2022;
 }
 
 .navbar {
@@ -171,4 +176,45 @@ footer .col-12 {
 /* Estilos para los íconos de redes sociales */
 .fa-2x {
   margin-right: 10px;
+}
+
+
+.btn-custom {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: var(--color-button-primary-text);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  background-color: transparent;
+  border: 2px solid var(--color-button-primary-bg);
+  border-color: black; /* Cambiado a color negro */
+  cursor: pointer;
+}
+
+.btn-custom:hover {
+  background: var(--color-button-secondary-bg);
+  color: var(--color-button-secondary-text);
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--color-button-secondary-bg), 0 0 25px var(--color-button-secondary-bg),
+              0 0 50px var(--color-button-secondary-bg), 0 0 100px var(--color-button-secondary-bg);
+}
+
+.btn-custom span {
+  position: absolute;
+  display: block;
+}
+
+.btn-custom span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--color-button-primary-bg));
+  animation: btn-anim1 1s linear infinite;
 }
