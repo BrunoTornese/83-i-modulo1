@@ -1,0 +1,21 @@
+:root {
+  --ColorLetrasImgInicio: #faedcd;
+  --ColorShadows: rgba(0, 0, 0, 0.1);
+  --CardBackground: #fff;
+  --CardText: #555;
+  --CardFooterBackground: #f0f0f0;
+  --CardFooterBorder-top: #ddd;
+  --CardHoveRCardFooter: #e0e0e0;
+  --MainBackground: #a29f9f;
+  --BotonCompraBackground: #f5f4f4;
+  --BotonCompraBorder: #555;
+}
+
+.main{
+  background-color: var(--MainBackground);
+}
+
+.boton404{
+  display: flex;
+  justify-content: center;
+}

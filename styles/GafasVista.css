@@ -1,0 +1,148 @@
+:root {
+    --ColorLetrasImgInicio: #faedcd;
+    --ColorShadows: rgba(0, 0, 0, 0.1);
+    --CardBackground: #fff;
+    --CardText: #555;
+    --CardFooterBackground: #f0f0f0;
+    --CardFooterBorder-top: #ddd;
+    --CardHoveRCardFooter: #e0e0e0;
+    --MainBackground: #a29f9f;
+    --BotonCompraBackground: #f5f4f4;
+    --BotonCompraBorder: #555;
+    --color-bg-top: #1E2022;
+  }
+
+  body{
+    background-color: var(--MainBackground)
+  }
+    .container-main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .container-content {
+        padding-top: 20px; 
+        padding-bottom: 20px; 
+    }
+
+  .cardGafasVista {
+    flex-basis: calc(50% - 40px);
+    margin: 20px;
+    border: none;
+    box-shadow: 0 2px 4px var(--ColorShadows);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: var(--CardBackground);
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .cardGafasVista .card-img-top {
+    flex: 1; 
+    object-fit: contain;
+    max-height: 300px; 
+  }
+
+  .cardGafasVista .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .cardGafasVista .btn-primary {
+    align-self: center;
+    margin-top: 10px; 
+  }
+  
+  .cardGafasVista .card-img-top {
+    height: 300px;
+    object-fit: contain;
+  }
+  
+  .cardGafasVista .card-text {
+    font-size: 15px;
+    color: var(--CardText);
+  }
+  
+  .cardGafasVista .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cardGafasVista .card-footer {
+    background-color: var(--CardFooterBackground);
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid var(--CardFooterBorder-top);
+  }
+  
+  .cardGafasVista:hover .card-footer {
+    background-color: var(--CardHoveRCardFooter);
+  }
+  .TituloGafasVista {
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+  
+footer {
+    text-align: center;
+    color: var(--ColorLetrasImgInicio);
+    margin-top: auto;
+    margin-top: 200px; 
+    transition: transform 0.2s;
+}
+  
+footer:hover {
+    transform: translateY(-3px);
+}
+  
+
+  .fa-2x {
+    margin-right: 10px;
+  }
+
+
+footer {
+  background-color: var(--color-bg-top); 
+  padding: 20px 0;
+  color: var(--ColorLetrasImgInicio);
+}
+
+
+.btn-dark {
+  background-color: var(--BotonCompraBackground); 
+  color: var(--CardText); 
+}
+
+
+.fa-2x {
+  margin-right: 15px;
+}
+
+
+footer .fa-2x {
+  color: var(--MainBackground);
+}
+
+
+.card-title {
+  font-size: 18px; 
+}
+
+
+.card-text {
+  font-size: 14px; 
+}
+
+
+.card-body {
+  background-color: var(--CardBackground); 
+}
+
+
+.cardGafasVista {
+  padding: 10px
+}

@@ -1,0 +1,174 @@
+:root {
+  --ColorLetrasImgInicio: #faedcd;
+  --ColorShadows: rgba(0, 0, 0, 0.1);
+  --CardBackground: #fff;
+  --CardText: #555;
+  --CardFooterBackground: #f0f0f0;
+  --CardFooterBorder-top: #ddd;
+  --CardHoveRCardFooter: #e0e0e0;
+  --MainBackground: #a29f9f;
+  --BotonCompraBackground: #f5f4f4;
+  --BotonCompraBorder: #555;
+}
+
+.navbar {
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+main img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+  max-width: 400px;
+  color: var(--ColorLetrasImgInicio);
+}
+
+.image-message p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  opacity: 0.6;
+}
+
+.card {
+  margin: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.same-size-card {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  width: 18rem;
+  margin-bottom: 20px;
+  border: none;
+  box-shadow: 0 2px 4px var(--ColorShadows);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: var(--CardBackground);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px var(--ColorShadows);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-text {
+  font-size: 14px;
+  color: var(--CardText);
+}
+
+.card + .card {
+  margin-left: 10px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-footer {
+  background-color: var(--CardFooterBackground);
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid var(--CardFooterBorder-top);
+}
+
+.card:hover .card-footer {
+  background-color: var(--CardHoveRCardFooter);
+}
+
+main {
+  background-color: var(--MainBackground);
+}
+
+.imgCardsPromo {
+  width: 400px;
+}
+
+.BotonCompra {
+  background-color: var(--BotonCompraBackground);
+  border-color: var(--BotonCompraBorder);
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: var(--CardText);
+  padding: 10px 0;
+  text-align: center;
+  color: var(--ColorLetrasImgInicio);
+  margin-top: auto;
+}
+
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col-12 {
+  flex-basis: calc(20% - 20px); /* Ajusta el ancho de la columna */
+  padding: 10px;
+  border: 1px solid var(--CardText);
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  background-color: var(--CardBackground);
+  color: var(--CardText);
+}
+
+/* Estilos para los íconos de redes sociales */
+.fa-2x {
+  margin-right: 10px;
+}

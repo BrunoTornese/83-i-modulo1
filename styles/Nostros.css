@@ -1,0 +1,76 @@
+:root {
+  --ColorLetrasImgInicio: #faedcd;
+  --ColorShadows: rgba(0, 0, 0, 0.1);
+  --CardBackground: #fff;
+  --CardText: #555;
+  --CardFooterBackground: #f0f0f0;
+  --CardFooterBorder-top: #ddd;
+  --CardHoveRCardFooter: #e0e0e0;
+  --MainBackground: #a29f9f;
+  --BotonCompraBackground: #f5f4f4;
+  --BotonCompraBorder: #555;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px);
+    margin: 0 10px; 
+  }
+  
+  .card img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+main{
+    background-color: var(--MainBackground);
+}
+
+.navbar {
+  padding: 10px 0;
+}
+.textoEntrada{
+  padding: 20px;
+  display: block;
+  text-align: center;
+}
+.video{
+ display: flex;
+ justify-content: center;
+}
+
+.navbar-brand {
+  margin-right: auto; /* Empuja el título hacia la izquierda */
+  padding: 0 20px;
+}
+
+.navbar-nav {
+  margin-left: auto; /* Empuja los elementos hacia la derecha */
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+.circular--square {
+  border-radius: 50%;
+}
+.persona{
+  display:block;
+}
+.textoPersona{
+  display: flex;
+}
+.imagenFinal{
+  display: flex;
+  justify-content: center;
+  
+}
