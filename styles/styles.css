@@ -234,6 +234,6 @@ footer .col-12 {
   display: block;
   margin: 0 auto;
   width: 100%;
-  max-width: 600px; /* Ajusta este valor según tus necesidades */
-  height: 300px; /* Ajusta este valor para la altura */
+  max-width: 300px; /* Ajusta este valor según tus necesidades */
+  height: 210px; /* Ajusta este valor para la altura */
 }
