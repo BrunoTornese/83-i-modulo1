@@ -1,9 +1,10 @@
 :root {
-  --color-bg-top: #243b55; 
-  --color-bg-form: #52616B; 
-  --color-text: #F0F5F9;
-  --color-accent: #C9D6DF;
+  --color-bg-top: #c6d2ed; 
+  --color-bg-form: #e3d0d8; 
+  --color-text: #feeafa;
+  --color-accent: #7678ed;
 }
+
 .navbar {
   padding: 10px 0;
 }
