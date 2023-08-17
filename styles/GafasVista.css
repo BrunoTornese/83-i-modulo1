@@ -16,6 +16,24 @@
   --color-bg-top: #1E2022;
 }
 
+.navbar {
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
 
 body {
   background-color: var(--MainBackground);

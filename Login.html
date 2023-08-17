@@ -50,7 +50,7 @@
       <section class="form-register">
         <div class="login-box">
           <h2>Login</h2>
-          <form>
+          <form id="registration-form" action="procesar_registro.php" method="POST">
             <div class="user-box">
               <input type="text" name="nombres" required>
               <label>Nombres</label>
@@ -68,11 +68,11 @@
               <label>Dirección de Email</label>
             </div>
             <div class="user-box">
-              <input type="tel" name="telefono">
+              <input type="tel" name="telefono" required>
               <label>Teléfono</label>
             </div>
             <div class="user-box">
-              <input type="text" name="domicilio">
+              <input type="text" name="domicilio" required>
               <label>Domicilio</label>
             </div>
             <div class="user-box">
@@ -83,27 +83,17 @@
               <input type="password" name="contrasena" required>
               <label>Contraseña</label>
             </div>
-            <a href="#" class="styled-button">
+            <button type="submit" class="styled-button">
               <span></span>
               <span></span>
               <span></span>
               <span></span>
-              Registrar
-            </a>
-            <!-- Agregar botones de inicio de sesión con las clases de estilos CSS -->
-            <a href="error404.html" class="styled-button">
-              Iniciar sesión con Google
-            </a>
-            <a href="error404.html" class="styled-button">
-              Iniciar sesión con Facebook
-            </a>
-            <a href="error404.html">
-              ¿Olvidaste tu contraseña?
-            </a>
+              Registrarse
+            </button>
           </form>
         </div>
       </section>
-    </main>
+    </main>    
     <footer></footer>
   </body>
   </html>

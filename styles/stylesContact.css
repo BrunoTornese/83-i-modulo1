@@ -97,7 +97,7 @@ body {
   font-size: 12px;
 }
 
-.contact-box form a {
+.contact-box form .styled-button {
   position: relative;
   display: inline-block;
   padding: 10px 20px;
@@ -109,25 +109,28 @@ body {
   transition: 0.5s;
   margin-top: 40px;
   letter-spacing: 4px;
+  background-color: transparent; /* Cambio de fondo transparente */
+  border: 2px solid var(--color-accent); /* Agregar borde */
+  border-radius: 5px; /* Añadir borde redondeado */
+  cursor: pointer; /* Cambiar el cursor a pointer al pasar por encima */
 }
 
-.contact-box a:hover {
+.contact-box .styled-button:hover {
   background: var(--color-accent);
   color: var(--color-text);
-  border-radius: 5px;
   box-shadow: 0 0 5px var(--color-accent), 0 0 25px var(--color-accent),
               0 0 50px var(--color-accent), 0 0 100px var(--color-accent);
 }
 
-.contact-box a span {
+.contact-box .styled-button span {
   position: absolute;
   display: block;
 }
 
-.contact-box a span:nth-child(1),
-.contact-box a span:nth-child(2),
-.contact-box a span:nth-child(3),
-.contact-box a span:nth-child(4) {
+.contact-box .styled-button span:nth-child(1),
+.contact-box .styled-button span:nth-child(2),
+.contact-box .styled-button span:nth-child(3),
+.contact-box .styled-button span:nth-child(4) {
   top: 50%;
   left: 50%;
   width: 40px;

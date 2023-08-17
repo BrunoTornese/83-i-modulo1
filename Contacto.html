@@ -55,42 +55,42 @@
       <div class="contact_form">
           <div class="formulario">      
               <section class="form-register">
-                  <main>
-                      <section class="form-contact">
-                          <div class="contact-box">
-                            <h2 style="display: flex; justify-content: center;">Contactanos</h2>
-                              <form>
-                                  <div class="user-box">
-                                      <input type="text" name="nombre" required>
-                                      <label>Nombre</label>
-                                  </div>
-                                  <div class="user-box">
-                                      <input type="email" name="correo" required>
-                                      <label>Correo Electrónico</label>
-                                  </div>
-                                  <div class="user-box">
-                                      <input type="tel" name="telefono" pattern="[0-9]{10}">
-                                      <label>Teléfono</label>
-                                  </div>
-                                  <div class="user-box">
-                                      <input type="text" name="asunto" required>
-                                      <label>Asunto</label>
-                                  </div>
-                                  <div class="user-box">
-                                      <textarea name="mensaje" rows="4" required></textarea>
-                                      <label>Mensaje</label>
-                                  </div>
-                                  <a href="#" class="styled-button">
-                                      <span></span>
-                                      <span></span>
-                                      <span></span>
-                                      <span></span>
-                                      Enviar
-                                  </a>
-                              </form>
-                          </div>
-                      </section>
-                    </main>
+                <main>
+                  <section class="form-contact">
+                    <div class="contact-box">
+                      <h2 style="display: flex; justify-content: center;">Contáctanos</h2>
+                      <form>
+                        <div class="user-box">
+                          <input type="text" name="nombre" maxlength="10" required>
+                          <label>Nombre</label>
+                        </div>
+                        <div class="user-box">
+                          <input type="email" name="correo" maxlength="35" required>
+                          <label>Correo Electrónico</label>
+                        </div>
+                        <div class="user-box">
+                          <input type="tel" name="telefono" pattern="[0-9]{10}" maxlength="10"required>
+                          <label>Teléfono</label>
+                        </div>
+                        <div class="user-box">
+                          <input type="text" name="asunto" maxlength="25" required>
+                          <label>Asunto</label>
+                        </div>
+                        <div class="user-box">
+                          <textarea name="mensaje" rows="4" maxlength="100"required></textarea>
+                          <label>Mensaje</label>
+                        </div>
+                        <button type="submit" class="styled-button">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          Enviar
+                        </button>
+                      </form>
+                    </div>
+                  </section>
+                </main>                          
                     <footer>
                     </footer>
                     </body>
@@ -99,3 +99,9 @@
     <footer></footer>
 </body>
 </html>
+
+
+
+
+
+

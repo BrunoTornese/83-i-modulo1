@@ -38,6 +38,12 @@ body {
   margin-right: 15px;
 }
 
+.carousel-container {
+  margin: 10px 0; 
+  border: 20px solid #ccc; 
+  padding: 0px;
+}
+
 main img {
   display: block;
   margin: 0 auto;
