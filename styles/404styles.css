@@ -87,10 +87,16 @@ body {
     background: linear-gradient(90deg, transparent, var(--color-button-primary-bg));
     animation: btn-anim1 1s linear infinite;
   }
+  
+  .imagen404 {
+    text-align: center; /* Centra el contenido horizontalmente */
+  }
 
 .imagen404 img {
     display: block;
-    margin: 20px auto; /* Agrega margen superior e inferior y centra la imagen horizontalmente */
+    margin: 20px auto; 
+    max-width: 100%; 
+    height: auto; 
   }
 
 
@@ -103,6 +109,12 @@ footer {
     margin-top: auto;
   }
   
+  /* Estilos específicos para la imagen en el footer */
+.footer-image {
+  max-width: 100%; 
+  height: auto;
+}
+
   footer .row {
     display: flex;
     flex-wrap: wrap;

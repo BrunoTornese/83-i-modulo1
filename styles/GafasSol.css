@@ -127,6 +127,12 @@
     transition: transform 0.2s;
   }
   
+  /* Estilos específicos para la imagen en el footer */
+.footer-image {
+  max-width: 100%; 
+  height: auto;
+}
+
   footer:hover {
     transform: translateY(-3px);
   }

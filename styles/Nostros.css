@@ -83,6 +83,12 @@ footer {
   margin-top: auto;
 }
 
+/* Estilos específicos para la imagen en el footer */
+.footer-image {
+  max-width: 100%; 
+  height: auto;
+}
+
 footer .row {
   display: flex;
   flex-wrap: wrap;

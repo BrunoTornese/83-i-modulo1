@@ -195,6 +195,12 @@ footer .col-12 {
   margin-right: 10px;
 }
 
+/* Estilos específicos para la imagen en el footer */
+.footer-image {
+  max-width: 100%; 
+  height: auto; 
+}
+
 
 .btn-custom {
   position: relative;
