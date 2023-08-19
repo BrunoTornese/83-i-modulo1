@@ -163,6 +163,10 @@ body {
   height: 210px; /* Ajusta este valor para la altura */
 }
 
+.Titulo-carrito {
+    text-align: center;
+    margin: 10px;
+}
 
 /* Estilos para el footer */
 footer {
