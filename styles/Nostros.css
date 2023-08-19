@@ -78,7 +78,7 @@ main{
 }
 /* Estilos para el footer */
 footer {
-  background-color: var(--color-bg-top); /* Cambia el fondo al mismo color de las tarjetas */
+  background-color: var(--MainBackground);
   padding: 10px 0;
   text-align: center;
   color: var(--ColorLetrasImgInicio);
