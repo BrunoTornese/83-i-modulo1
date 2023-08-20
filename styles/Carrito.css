@@ -170,7 +170,7 @@ body {
 
 /* Estilos para el footer */
 footer {
-  background-color: var(--MainBackground); /* Cambia el fondo al mismo color de las tarjetas */
+  background-color: var(--MainBackground);
   padding: 10px 0;
   text-align: center;
   color: var(--ColorLetrasImgInicio);
@@ -183,23 +183,21 @@ footer .row {
   justify-content: space-between;
 }
 
-footer .col-12 {
-  flex-basis: calc(20% - 20px); /* Ajusta el ancho de la columna */
-  padding: 10px;
-  border: 1px solid var(--CardText);
-  box-sizing: border-box;
+/* Estilos para las columnas en diferentes tamaños de pantalla */
+footer .col-md-3 {
+  flex-basis: calc(100% - 20px);
   margin-bottom: 20px;
-  background-color: var(--CardBackground);
-  color: var(--CardText);
+  box-sizing: border-box;
 }
 
-/* Estilos para los íconos de redes sociales */
-.fa-2x {
-  margin-right: 10px;
+@media (min-width: 768px) {
+  footer .col-md-3 {
+    flex-basis: calc(50% - 20px);
+  }
 }
 
-/* Estilos específicos para la imagen en el footer */
-.footer-image {
-  max-width: 100%; 
-  height: auto; 
+@media (min-width: 1200px) {
+  footer .col-md-3 {
+    flex-basis: calc(25% - 20px);
+  }
 }

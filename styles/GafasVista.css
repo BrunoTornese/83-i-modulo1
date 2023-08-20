@@ -127,6 +127,18 @@ footer {
   transition: transform 0.2s;
 }
 
+@media (min-width: 768px) {
+  footer .col-md-3 {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 1200px) {
+  footer .col-md-3 {
+    flex-basis: calc(25% - 20px);
+  }
+}
+
 /* Estilos específicos para la imagen en el footer */
 .footer-image {
   max-width: 100%; 
