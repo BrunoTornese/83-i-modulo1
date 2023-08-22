@@ -16,6 +16,10 @@
   --color-bg-top: #1E2022;
 }
 
+.prueba{
+  margin-left: 30px;
+}
+
 body {
   background-color: var(--MainBackground);
 }
